@@ -18,9 +18,15 @@ const button3 = document.getElementById("button3");
 const button4 = document.getElementById("button4");
 
 button1.addEventListener("click", function() {
-    window.location.href = "music.html";
+    window.location.href = "http://127.0.0.1:5555/html/music.html";
   });
-
+  
+button2.addEventListener("click", function() {
+    window.location.href = "http://127.0.0.1:5555/html/chess.html";
+  });
 button3.addEventListener("click", function() {
-    window.location.href = "book.html";
+    window.location.href = "http://127.0.0.1:5555/html/book.html";
+  });
+button4.addEventListener("click", function() {
+    window.location.href = "http://127.0.0.1:5555/html/paint.html";
   });
