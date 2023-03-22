@@ -82,4 +82,13 @@ html {
     justify-content: center;
 
   }
-  
+
+  #press{
+    color:black;
+    
+  }
+
+  .btn-outline-secondary:hover {
+    background-color: #c9f1b1; /* Set the hover background color of the button */
+    border-color: #c3f789; /* Set the hover border color of the button */
+  }
