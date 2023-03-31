@@ -2,6 +2,7 @@ var song
 var fft
 var particles = []
 
+
 function preload() {
   song = loadSound("../js/hong.mp3")
 }
