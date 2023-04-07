@@ -26,18 +26,11 @@ html {
   .bg3 {
     animation-duration:5s;
   }
-  .click {
-    color: white;
-    margin-left: 5px;
-    margin-top: 5px;
+  .container{
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    color: white;
   }
-
-  h1 {
-    font-family:monospace;
-  }
-  
   @keyframes slide {
     0% {
       transform:translateX(-25%);
